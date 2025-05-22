@@ -209,12 +209,6 @@ npm start
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 📬 Contact
 
 For feedback, questions, or business inquiries:
