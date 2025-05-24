@@ -215,7 +215,7 @@ For feedback, questions, or business inquiries:
 
 **Live App:** [https://earnest-salamander-390aab.netlify.app/](https://earnest-salamander-390aab.netlify.app/)
 **Email:** [support@autocarepro.com](mailto:support@autocarepro.com)
-**GitHub:** [github.com/your-username](https://github.com/Cephasgokula)
+**GitHub:** [github.com/Cephasgokula](https://github.com/Cephasgokula)
 
 ---
 
