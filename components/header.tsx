@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { Car, User } from "lucide-react"
 import Link from "next/link"
