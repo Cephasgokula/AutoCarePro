@@ -14,7 +14,7 @@ import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 import { useToast } from "@/hooks/use-toast"
-import { addVehicle } from "@/lib/vehicles-api"
+import { addVehicle } from "@/lib/mock-vehicles-api"
 
 export default function AddVehiclePage() {
   const { user, isLoading } = useAuth()

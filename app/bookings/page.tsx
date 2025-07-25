@@ -9,8 +9,8 @@ import { Car, Calendar, Clock, DollarSign, Plus } from "lucide-react"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
-import { getBookings } from "@/lib/bookings-api"
-import type { Booking } from "@/lib/supabase"
+import { getBookings } from "@/lib/mock-bookings-api"
+import type { Booking } from "@/lib/mock-data"
 import { useToast } from "@/hooks/use-toast"
 
 export default function BookingsPage() {

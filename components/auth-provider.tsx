@@ -2,7 +2,7 @@
 
 import type React from "react"
 import { createContext, useContext, useEffect, useState } from "react"
-import { signIn, signUp, updateProfile, changePassword, type AuthUser } from "@/lib/auth-api"
+import { signIn, signUp, updateProfile, changePassword, type AuthUser } from "@/lib/mock-auth-api"
 
 interface AuthContextType {
   user: AuthUser | null

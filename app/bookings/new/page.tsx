@@ -16,10 +16,10 @@ import Link from "next/link"
 import { useRouter, useSearchParams } from "next/navigation"
 import { useEffect, useState } from "react"
 import { useToast } from "@/hooks/use-toast"
-import { getVehicles } from "@/lib/vehicles-api"
-import { getServices } from "@/lib/services-api"
-import { createBooking } from "@/lib/bookings-api"
-import type { Vehicle, Service } from "@/lib/supabase"
+import { getVehicles } from "@/lib/mock-vehicles-api"
+import { getServices } from "@/lib/mock-services-api"
+import { createBooking } from "@/lib/mock-bookings-api"
+import type { Vehicle, Service } from "@/lib/mock-data"
 
 export default function NewBookingPage() {
   const { user, isLoading } = useAuth()

@@ -10,8 +10,8 @@ import { Search, Filter, Clock, DollarSign, Calendar } from "lucide-react"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
-import { getServices } from "@/lib/services-api"
-import type { Service } from "@/lib/supabase"
+import { getServices } from "@/lib/mock-services-api"
+import type { Service } from "@/lib/mock-data"
 import { useToast } from "@/hooks/use-toast"
 
 export default function ServicesPage() {

@@ -8,9 +8,9 @@ import { Car, Edit, Plus, Trash2, Calendar } from "lucide-react"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
-import { getVehicles } from "@/lib/vehicles-api"
+import { getVehicles } from "@/lib/mock-vehicles-api"
 import { useToast } from "@/hooks/use-toast"
-import type { Vehicle } from "@/lib/vehicles-api"
+import type { Vehicle } from "@/lib/mock-vehicles-api"
 
 const VehiclesPage = () => {
   const { user, isLoading } = useAuth()

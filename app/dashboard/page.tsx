@@ -8,9 +8,9 @@ import { Calendar, Car, Clock, Plus, User, Wrench } from "lucide-react"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
-import { getVehicles } from "@/lib/vehicles-api"
-import { getBookings } from "@/lib/bookings-api"
-import type { Vehicle, Booking } from "@/lib/supabase"
+import { getVehicles } from "@/lib/mock-vehicles-api"
+import { getBookings } from "@/lib/mock-bookings-api"
+import type { Vehicle, Booking } from "@/lib/mock-data"
 
 export default function DashboardPage() {
   const { user, isLoading } = useAuth()
